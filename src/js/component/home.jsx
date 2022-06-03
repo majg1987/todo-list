@@ -22,7 +22,9 @@ const Home = () => {
 
 	return (
 		<div className="container">
-			<h1 className="text-center text-warning fw-bolder ">To Do List</h1>
+			<h1 className="text-center text-warning fw-bolder ">
+				Lista de Tareas
+			</h1>
 			<div className="input-group flex-nowrap">
 				<input
 					type="text"
