@@ -10,11 +10,13 @@ const Card = ({ tareas, setTareas }) => {
 
 	return (
 		<>
-			<div className="card mt-3 mx-auto">
+			<div className="card tarjeta mt-3 mx-auto fw-bolder">
 				<div className="card-body border border-info">
 					<ul className="list-group-item border border-warning">
 						{tareas.length === 0 ? (
-							<p className="text-info">Añade Tareas a la Lista</p>
+							<p className="text-info text-center">
+								Añade Tareas a la Lista
+							</p>
 						) : (
 							tareas.map((element, index) => {
 								return (
@@ -22,9 +24,11 @@ const Card = ({ tareas, setTareas }) => {
 										key={index}
 										className="d-flex justify-content-between text-info p-2">
 										{element}
-										<span onClick={() => eliminar(element)}>
+										<button
+											onClick={() => eliminar(element)}
+											className="bg-danger rounded-circle text-white border-0">
 											<i className="far fa-trash-alt"></i>
-										</span>
+										</button>
 									</li>
 								);
 							})

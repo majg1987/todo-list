@@ -1,3 +1,13 @@
+body{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR64VsGEo8bD_65Eqe4IGBTclPOLVfqBAq3Lg&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    padding-top: 140px;
+}
+
 input {
     max-width: 500px;
 }
@@ -7,6 +17,7 @@ li {
     list-style: none;
 }
 
-.card {
+.tarjeta {
     max-width: 500px !important;
+    box-shadow: 0 0 20px cyan;
 }

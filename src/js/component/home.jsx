@@ -22,11 +22,11 @@ const Home = () => {
 
 	return (
 		<div className="container">
-			<h1 className="text-center text-primary">TodoList</h1>
+			<h1 className="text-center text-warning fw-bolder ">To Do List</h1>
 			<div className="input-group flex-nowrap">
 				<input
 					type="text"
-					className="form-control mx-auto border border-warning"
+					className="form-control mx-auto border border-info text-info fw-bolder"
 					placeholder="Introduce tu Tarea"
 					aria-label="Username"
 					aria-describedby="addon-wrapping"
