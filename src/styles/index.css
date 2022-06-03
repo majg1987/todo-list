@@ -21,3 +21,7 @@ li {
     max-width: 500px !important;
     box-shadow: 0 0 20px cyan;
 }
+
+.alerta{
+    max-width: 500px;
+}

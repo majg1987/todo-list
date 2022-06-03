@@ -32,11 +32,14 @@ const Home = () => {
 					aria-describedby="addon-wrapping"
 					onChange={(e) => setTarea(e.target.value)}
 					onKeyDown={añadir}
+					value={tarea}
 				/>
 			</div>
 			<Card tareas={tareas} setTareas={setTareas} />
 			<div
-				className={`${alert ? "alert alert-danger" : ""}`}
+				className={`${
+					alert ? "alert alert-danger mt-4 mx-auto alerta" : ""
+				}`}
 				role="alert">
 				{`${alert ? "No puedes insertar una tarea vacia" : ""}`}
 			</div>
